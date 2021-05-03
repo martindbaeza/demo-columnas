@@ -14,15 +14,15 @@ html, body {
 }
 
 body {
-	--color-text: #252528;
-	--color-bg: #afb6bc;
+	--color-text: #0a0a2c;
+	--color-bg: #899eb1;
 	--color-link: #252528;
 	--color-link-hover: #252528;
-	--color-menu-text: #252528;
-	--color-bg-move: #afb6bc;
+	--color-menu-text: #ececf5;
+	--color-bg-move: #091622;
 	color: var(--color-text);
 	background-color: var(--color-bg);
-	font-family: fieldwork-hum, sans-serif;
+	font-family: Haettenschweiler, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -375,8 +375,8 @@ a:focus {
 		border-radius: 50%;
 	}
 	.cursor__inner--circle {
-		width: 25px;
-		height: 25px;
-		border: 1px solid #fff;
+		width: 35px;
+		height: 35px;
+		border: 1px solid rgb(11, 9, 19);
 	}
 }
